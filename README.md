@@ -1,1 +1,1 @@
-# Kuzushiji_1
+# kuzushiji_1
