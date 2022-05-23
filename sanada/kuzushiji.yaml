@@ -1,0 +1,21 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# kuzushiji
+# parent
+# ├── yolov5
+# └── data
+#        ├── images
+#        ├── labels
+#        ├── train.txt
+#        ├── valid.txt
+#        └── test.txt
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../  # dataset root dir
+train: ./train.txt  # train images (relative to 'path') 
+val: ./valid.txt  # val images (relative to 'path') 
+test: ./test.txt  # test images
+
+# Classes
+nc: 1  # number of classes
+names: ['kuzushiji']  # class names
